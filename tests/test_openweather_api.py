@@ -1,6 +1,7 @@
 import pytest
-from automation_framework.utilities.api_helpers import ApiHelper
-from automation_framework.utilities.db_helpers import DatabaseHelper
+from ..utilities.api_helpers import ApiHelper
+
+from ..utilities.db_helpers import DatabaseHelper
 
 @pytest.fixture(scope="module")
 def api():
